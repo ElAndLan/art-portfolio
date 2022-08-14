@@ -1,0 +1,37 @@
+.container {
+  border-radius: 25px;
+  max-height: 100%;
+  width: 80%;
+  margin: 2% auto;
+  background-color: white;
+  color: black;
+  box-shadow: -2px -2px 10px white, 2px -2px 10px white;
+  overflow: hidden;
+  display: flex;
+}
+
+#logo {
+  padding: 0 50px;
+  width: 20%;
+}
+
+.container > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+  right: 15%;
+}
+
+.container > ul > li {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 3vh;
+  text-align: center;
+  padding: 1vh 3vh 0vh 3vh;
+  margin: 0 0px;
+  line-height: 5vh;
+  position: relative;
+  top: 10px;
+}

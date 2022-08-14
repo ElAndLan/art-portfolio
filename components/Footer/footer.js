@@ -1,7 +1,13 @@
+import styles from "../../styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <div>
-      <h1> This is where the footer will go.</h1>
+    <div className={styles.footerContainer}>
+      <h1>
+        {" "}
+        All images are owned exclusively by Maxi Marie Estrada. If you wish to
+        purchase any images, or purchase a commission please contact us.
+      </h1>
     </div>
   );
 };
