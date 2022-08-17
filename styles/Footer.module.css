@@ -1,4 +1,6 @@
 .footerContainer {
   font-size: 5px;
   text-align: center;
+  position: relative;
+  top: 100vh;
 }

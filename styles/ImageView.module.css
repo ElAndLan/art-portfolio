@@ -1,0 +1,14 @@
+.imageContainer {
+    width: 40%;
+    float: left;
+}
+
+.infoContainer {
+    float: left;
+}
+
+.image {
+    align-items: center;
+    width: 75%;
+    height: 75%;
+}
