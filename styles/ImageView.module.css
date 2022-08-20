@@ -1,14 +1,18 @@
 .imageContainer {
-    width: 40%;
+    position: relative;
+    margin-left: 7.5%;
+    padding-right: 0%;
+    width: 30%;
     float: left;
 }
 
 .infoContainer {
     float: left;
+    margin-right: 7.5%;
 }
 
 .image {
     align-items: center;
     width: 75%;
-    height: 75%;
+    height: 70vh;
 }
